@@ -1,3 +1,2 @@
 #!/bin/sh
-export DISPLAY=:0
-su -c slock lieu &
+DISPLAY=:0 su -c slock lieu &

@@ -1,3 +1,2 @@
 #!/bin/sh
-export PATH=$PATH:/home/lieu/.repos/scr/ipts
-bri 10 +
+printf 4648 > /sys/class/backlight/intel_backlight/brightness
