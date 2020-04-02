@@ -2,6 +2,9 @@
 pkill -f /dev/video0 ||
 DISPLAY=:0 mpv \
     --autofit=20% \
+    --config=no \
     --geometry=-10-10 \
+    --hwdec=vaapi \
     --input-default-bindings=no \
+    --osd-bar=no \
     --vf=hflip /dev/video0 >/dev/null 2>&1
