@@ -1,2 +1,2 @@
 #!/bin/sh
-amixer sset Master 5%-
+amixer -M set Master 5%-
